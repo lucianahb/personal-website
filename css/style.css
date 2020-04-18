@@ -1,0 +1,111 @@
+* {
+  font-family: "IBM Plex mono", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+.banner {
+  align-items: center;
+  background-attachment: fixed;
+  background-image:url("../img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 80vh;
+}
+
+.banner-conteudo {
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  margin-top: 10rem;
+}
+
+.banner-conteudo a {
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.banner-conteudo a:hover {
+  background-color: #EC4D2F;
+  transition:ease 0.5s;
+  color: #fff;
+}
+
+/* SOBRE */
+.sobre,
+.redes {
+ max-width: 1024px;
+ margin: 0 auto;
+}
+
+.sobre h3 {
+  text-align: center;
+}
+
+.sobre-mim {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.sobre-conteudo {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-right: 60px;
+  text-align: end;
+}
+
+.sobre-conteudo,
+.sobre-habilidade {
+ width: 50%;
+}
+
+
+/* REDES SOCIAIS */
+.redes-sociais {
+  background-color: #3D9399;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.redes-sociais_behance,
+.redes-sociais_linkedin,
+.redes-sociais_github {
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+.redes-sociais img {
+  max-width: 2rem;
+  max-height: 2rem;
+}
+
+.redes-sociais p {
+  margin-bottom: 0;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
