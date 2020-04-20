@@ -27,7 +27,22 @@ a {
   margin: auto;
   text-align: center;
   color: #fff;
-  margin-top: 10rem;
+  margin-top: 2.5rem;
+}
+
+.banner-conteudo img {
+  border-radius: 50%;
+  max-width: 15%;
+}
+
+.banner-conteudo h1 {
+  font-size: 28px;
+}
+
+.banner-conteudo h2 {
+  font-size: 20px;
+  margin-bottom: 2rem;
+  font-weight: normal;
 }
 
 .banner-conteudo a {
@@ -45,9 +60,15 @@ a {
 }
 
 /* SOBRE */
+
+.sobre {
+  border-top: 7px solid #3D9399;
+  max-width: 100%;
+  
+}
+
 .sobre,
 .redes {
- max-width: 1024px;
  margin: 0 auto;
 }
 
@@ -56,6 +77,8 @@ a {
 }
 
 .sobre-mim {
+  margin: auto;
+  max-width: 1024px;
   display: flex;
   justify-content: space-between;
   padding: 0 2rem;
@@ -75,10 +98,25 @@ a {
  width: 50%;
 }
 
+.sobre-habilidade ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sobre-habilidade li {
+  padding-left: 2.3em; 
+}
+
+.sobre-habilidade li::before {
+  content: "• ";
+  color: #EC4D2F; 
+}
 
 /* REDES SOCIAIS */
 .redes-sociais {
   background-color: #3D9399;
+  border-top: 2px solid #EC4D2F;
   display: flex;
   justify-content: center;
   margin-top: 2rem;
@@ -104,6 +142,7 @@ a {
 /* FOOTER */
 
 footer {
+  border-top: 2px solid #EC4D2F;
   background-color: #000;
   color: #fff;
   text-align: center;
