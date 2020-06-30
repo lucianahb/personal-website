@@ -1,5 +1,6 @@
 * {
-  font-family: "IBM Plex mono", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: "IBM Plex mono", Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
   box-sizing: border-box;
 }
 
@@ -9,13 +10,14 @@ body {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 /* HEADER */
 .banner {
   align-items: center;
   background-attachment: fixed;
-  background-image:url("../img/bg.jpg");
+  background-image: url("../img/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,22 +56,21 @@ a {
 }
 
 .banner-conteudo a:hover {
-  background-color: #EC4D2F;
-  transition:ease 0.5s;
+  background-color: #ec4d2f;
+  transition: ease 0.5s;
   color: #fff;
 }
 
 /* SOBRE */
 
 .sobre {
-  border-top: 7px solid #3D9399;
+  border-top: 7px solid #3d9399;
   max-width: 100%;
-  
 }
 
 .sobre,
 .redes {
- margin: 0 auto;
+  margin: 0 auto;
 }
 
 .sobre h3 {
@@ -95,7 +96,7 @@ a {
 
 .sobre-conteudo,
 .sobre-habilidade {
- width: 50%;
+  width: 50%;
 }
 
 .sobre-habilidade ul {
@@ -105,18 +106,18 @@ a {
 }
 
 .sobre-habilidade li {
-  padding-left: 2.3em; 
+  padding-left: 2.3em;
 }
 
 .sobre-habilidade li::before {
   content: "• ";
-  color: #EC4D2F; 
+  color: #ec4d2f;
 }
 
 /* REDES SOCIAIS */
 .redes-sociais {
-  background-color: #3D9399;
-  border-top: 2px solid #EC4D2F;
+  background-color: #3d9399;
+  border-top: 2px solid #ec4d2f;
   display: flex;
   justify-content: center;
   margin-top: 2rem;
@@ -124,7 +125,7 @@ a {
 
 .redes-sociais_behance,
 .redes-sociais_linkedin,
-.redes-sociais_github {
+.redes-sociais_github, .redes-sociais_medium {
   color: #fff;
   text-align: center;
   padding: 2rem;
@@ -142,7 +143,7 @@ a {
 /* FOOTER */
 
 footer {
-  border-top: 2px solid #EC4D2F;
+  border-top: 2px solid #ec4d2f;
   background-color: #000;
   color: #fff;
   text-align: center;
